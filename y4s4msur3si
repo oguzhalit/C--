@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+ int main(){
+ int yil,ay,gun; 
+ int yyil=2018,yay=12,ygun=6;
+ cout<<"dogum yılınız"<<endl;
+ cin>>yil;
+ cout<<"dogdugunuz ay"<<endl;
+ cin>>ay;
+ cout<<"dogdugunuz gun"<<endl;
+ cin>>gun;
+ cout<<"yasam süreniz: "<<yyil-yil<<"yıl "<<yay-ay<<" ay "<<ygun<<" gun "<<endl;
+ }
+
+
+
+
