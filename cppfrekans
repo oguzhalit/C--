@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int i,say=0;
+	char kelime[100], a;
+	cout << "kelime gir"<<endl;
+	cin >> kelime;
+	cout << "karakteri gir"<<endl;
+	cin >> a;
+	for(i=0; kelime[i] != '\0'; i++){
+	if(a==kelime[i])
+	{
+	say++;
+	}}
+	cout << "frekans"<<say<<endl;
+}
+burdaki frekans'dan kasıt belirtilen harfin cümlede kaç kere kullanıldıgıdır.
+eger fizikteki frekans hesaplaması olsaydı "devirli bir olayın saniyedeki devir sayısı" yani say degişkenini  kelime ye bölmemiz yeterli.
+(c++ frequency example) = olarak aratırsak daha detaylı kodlar bulabiliriz.
