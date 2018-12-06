@@ -1,0 +1,19 @@
+#include<iostream>
+#include<stdlib.h>
+
+using namespace std;
+
+int main()
+{
+        system("echo -n '\nHostname: '"); system("hostname");
+        system("echo -n '\nIP Address:'"); system("ifconfig | grep inet | tail -n 2 | head -n 1 | awk {'print $2'} ");
+        system("echo -n '\nKullanıcı: '"); system("whoami");
+        return 0;
+}
+
+Derlemek için linux'a cpp derleyici yüklemeniz gereklidir.
+g++ dosya_adı.cpp -o dosya_ouput_adı
+chmod 777 dosya_output_adı(önemli bir program olmadıgı için 777 verdim)
+./dosya_output_adı
+
+ifconfig sizde ipadresini getirmeyebilir. ben kendi ifconfig çıktıma göre düzenledim.
